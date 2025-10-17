@@ -1,0 +1,69 @@
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #ffffff;
+  color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, .p-button {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.p-overlaypanel {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.p-datatable {
+  box-shadow: none;
+}
+
+.p-inputtext, .p-inputnumber input {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.select-overlay {
+  padding: 8px 10px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+}
+
+.select-overlay .select-overlay-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 200px;
+}
+
+.select-overlay .p-inputnumber,
+.select-overlay .p-inputtext {
+  width: 100%;
+}
+
+.select-overlay .p-inputnumber input,
+.select-overlay .p-inputtext {
+  border-radius: 8px;
+}
+
+.select-overlay .p-button {
+  align-self: flex-end;
+  text-transform: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+}
